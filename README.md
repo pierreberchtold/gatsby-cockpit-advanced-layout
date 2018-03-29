@@ -1,6 +1,6 @@
-# Gatsby Cockpit Getting Started
+# Gatsby Cockpit Advanced Layout
 
-This project serves as a getting started for Cockpit and Gatsby.
+Example project to use Cockpit layout field with custom components in Gatsby.
 
 ## The Scope
 
@@ -10,8 +10,26 @@ This project serves as a getting started for Cockpit and Gatsby.
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-### Part 1
-Create the website and integrate data from Cockpit.
+## Cockpit
 
-### Part 2
-Programmaticaly create project pages and use Gatsby image features.
+Run a PHP server on the `cockpit` folder.
+
+## Website
+
+### Installation
+
+```
+npm install
+```
+
+### Development
+
+```
+npm run develop
+```
+
+### Production
+
+```
+npm run build
+```
