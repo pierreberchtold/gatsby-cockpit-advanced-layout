@@ -218,6 +218,11 @@ h2 {
   margin-top: 0px;
 }
 
+.project p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0px;
+}
+
 
 /* Card */
 .card {
