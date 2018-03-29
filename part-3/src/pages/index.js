@@ -6,6 +6,7 @@ import CockpitLayout from '../components/CockpitLayout';
 
 const IndexPage = ({data}) => {
   const { page, projects } = data;
+console.log(page);
 
   return (
     <div>
@@ -16,6 +17,7 @@ const IndexPage = ({data}) => {
     </div>
   )
 }
+
 
 export default IndexPage;
 
