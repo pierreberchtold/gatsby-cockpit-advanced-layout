@@ -4,15 +4,22 @@ import isEmpty from 'is-empty';
 import propTypes from 'prop-types';
 
 // Components
+import Card from '../Card';
+import Heading from '../Heading';
+import ProjectGrid from '../ProjectGrid';
 
-
-// CockpitLayout
+// CockpitLayout Components
 import CockpitGrid from '../CockpitGrid';
 import CockpitSection from '../CockpitSection';
 
+
+// available components
 const components = {
   Grid: CockpitGrid,
   Section: CockpitSection,
+  Heading: Heading,
+  ProjectGrid: ProjectGrid,
+  Card: Card,
 };
 
 class CockpitLayout extends PureComponent {
@@ -33,7 +40,8 @@ class CockpitLayout extends PureComponent {
   };
 
   renderComponent(layout, data) {
-    const { objects, floors, files } = data;
+    const { projects } = data;
+    console.log(layout);
     return (!isEmpty(layout) &&
       layout.map(
         (
@@ -64,11 +72,7 @@ class CockpitLayout extends PureComponent {
                 {...settings}
                 layoutChildren={children}
                 layoutColumns={columns}
-                onEdit={onEdit}
-                layoutPath={`${path}[${key}]`}
-                objects={objects}
-                floors={floors}
-                files={files}
+                projects={projects}
               />
             </div>
           );
