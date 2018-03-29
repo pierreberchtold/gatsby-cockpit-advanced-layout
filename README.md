@@ -17,4 +17,4 @@ Create the website and integrate data from Cockpit.
 Programmaticaly create project pages and use Gatsby image features.
 
 ### Part 3
-Use Cockpit layout field in your Gatsby project.
+Use Cockpit layout field with custom components in your Gatsby project.
