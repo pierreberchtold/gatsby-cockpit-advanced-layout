@@ -59,4 +59,6 @@ typings/
 
 .cache
 .DS_Store
-/public/*
+/part-1/public/*
+/part-2/public/*
+/part-3/public/*
