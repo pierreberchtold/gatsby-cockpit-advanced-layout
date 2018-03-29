@@ -38,7 +38,7 @@ export const query = graphql`
   query HomeQuery {
     page(slug: { eq: "home" }) {
       title
-      content
+      content_parsed
     }
 
     projects: allProject {
@@ -58,6 +58,5 @@ export const query = graphql`
         }
       }
     }
-
   }
 `

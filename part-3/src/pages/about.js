@@ -27,7 +27,7 @@ export const query = graphql`
   query AboutQuery {
     page(slug: { eq: "about" }) {
       title
-      content
+      content_parsed
     }
   }
 `
