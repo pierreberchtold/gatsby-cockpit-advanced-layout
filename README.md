@@ -1,4 +1,4 @@
-# Gatsby Cockpit Portfolio
+# Gatsby Cockpit Getting Started
 
 This project serves as a getting started for Cockpit and Gatsby.
 
@@ -15,6 +15,3 @@ Create the website and integrate data from Cockpit.
 
 ### Part 2
 Programmaticaly create project pages and use Gatsby image features.
-
-### Part 3
-Use Cockpit layout field with custom components in your Gatsby project.

@@ -1,4 +1,4 @@
-# Gatsby Cockpit Portfolio Part 1
+# Gatsby Cockpit - Getting Started Part 1
 
 Create the website and integrate data from Cockpit.
 

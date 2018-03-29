@@ -1,4 +1,4 @@
-# Gatsby Cockpit Portfolio Part 2
+# Gatsby Cockpit - Getting Started Part 2
 
 Programmaticaly create project pages and use Gatsby image features.
 
