@@ -2,9 +2,11 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Img from 'gatsby-image';
 import Card from '../components/Card';
+import MarkdownIt from 'markdown-it';
 
 const ProjectTemplate = ({data}) => {
   const { project } = data;
+  const md = new MarkdownIt();
   return (
     <div>      
       <div className="project">
@@ -12,7 +14,7 @@ const ProjectTemplate = ({data}) => {
         <h1>{project.title}</h1>
         <div
           dangerouslySetInnerHTML={{
-            __html: project.content,
+            __html: md.render(project.content),
           }}
         />    
       </div>
