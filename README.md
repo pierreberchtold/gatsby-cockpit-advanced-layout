@@ -1,6 +1,6 @@
 # Gatsby Cockpit Advanced Layout
 
-Example project to use Cockpit layout field with custom components in Gatsby.
+Example project to use Cockpit layout field with custom components in Gatsby. You can find some more on [my Medium Post](https://medium.com/@pierreberchtold/gatsby-cockpit-layout-field-e908f4dbd87b) based on this project.
 
 ## The Scope
 
